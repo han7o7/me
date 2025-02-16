@@ -38,8 +38,8 @@
         </div>
         <div class="section">
             <h2>School Year & Major</h2>
-            <p>Current School Year: [Your School Year]</p>
-            <p>Major: [Your Major]</p>
+            <p>Current School Year: Freshman</p>
+            <p>Major: IT at Lewis University</p>
         </div>
         <div class="section">
             <h2>Job Title</h2>
