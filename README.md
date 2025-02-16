@@ -26,11 +26,18 @@
             margin: 15px 0;
             border-radius: 5px;
         }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
+        <img src="me.png" alt="Atahan Ors" class="profile-img">
         <div class="section">
             <h2>Name</h2>
             <p>Atahan Ors</p>
@@ -63,7 +70,7 @@
         </div>
         <div class="section">
             <h2>Fun Fact</h2>
-            <p>I build cars for fun, always looking for new projects and modifications.</p>
+            <p>I build cars for fun!</p>
         </div>
     </div>
 </body>
