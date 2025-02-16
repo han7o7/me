@@ -1,6 +1,9 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <style>
         body {
@@ -8,21 +11,29 @@
             background-color: #f4f4f4;
             line-height: 1.6;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
             overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .main-info {
             background: #333;
             color: #fff;
             padding: 20px;
+            border-radius: 8px 8px 0 0;
         }
         .main-info h1 {
             margin: 0;
         }
-        .hobbies, .lewis, .course, .job, .fun-fact, .introduction, .learning, .favorite-hobby {
+        section {
             background: #e7e7e7;
             padding: 15px;
             margin-bottom: 10px;
@@ -33,6 +44,15 @@
             height: auto;
             border-radius: 50%;
             margin: 20px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
         }
     </style>
 </head>
@@ -45,19 +65,12 @@
 
         <img src="me.png" alt="Atahan Ors" class="profile-img">
 
-        <section class="introduction">
+        <section>
             <h2>Introduction</h2>
-            <p>Hello, my name is Atahan Ors. I am 21 years old. We moved to Chicago from Turkiye in 2003. I now go to Lewis University in pursuit of joining the Air Force ROTC. My major is Information Technology (IT).</p>
+            <p>Hello, my name is Atahan Ors. I am 21 years old. My family and I moved to Chicago from Türkiye in 2003. I currently attend Lewis University, where I am majoring in Information Technology (IT). My goal is to join the Air Force ROTC while building a strong foundation in IT.</p>
         </section>
 
-        <section class="lewis">
-            <h2>Year at Lewis: Freshman</h2>
-            <h2>Lewis major/minor/concentrations: IT Major</h2>
-            <h2>Reasons for pursuing this degree:</h2>
-            <p>My goal is to advance my career in the Air Force while also pursuing opportunities in patient care.</p>
-        </section>
-
-        <section class="learning">
+        <section>
             <h2>What I Hope to Learn in this Course</h2>
             <ul>
                 <li>Basic computer science knowledge</li>
@@ -68,18 +81,7 @@
             </ul>
         </section>
 
-        <section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>This course is essential for my IT major and aligns with my long-term career objectives.</p>
-        </section>
-
-        <section class="job">
-            <h2>Current/Recent Job</h2>
-            <p>Mover & Junk Remover at College Hunks</p>
-            <p>Responsible for handling household moves, removing unwanted junk, and ensuring customer satisfaction.</p>
-        </section>
-
-        <section class="favorite-hobby">
+        <section>
             <h2>My Favorite Hobby / Activity</h2>
             <ul>
                 <li>Building and modifying cars</li>
@@ -88,12 +90,7 @@
             <p>Learn more about car modifications <a href="https://www.motortrend.com/" target="_blank">here</a>.</p>
         </section>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>Passionate about cars and music, frequently working on vehicle projects and exploring new tunes.</p>
-        </section>
-
-        <section class="fun-fact">
+        <section>
             <h2>Fun Fact</h2>
             <p>I build cars for fun and have taken on multiple car restoration projects!</p>
         </section>
