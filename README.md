@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,31 +56,27 @@
             <img src="me-800-by-800.jpg" alt="Profile Picture">
             <h1>Atahan Ors</h1>
             <p>Preferred Name: Han</p>
-            <p>Current Job: Lifeguard & Swim Instructor</p>
+            <p>Current Job Title: Lifeguard & Swim Instructor</p>
         </header>
 
         <section>
-            <h2>Introduction</h2>
-            <p>Hi, I'm Atahan Ors, but I go by Han. My family is very important to me, and I am currently a freshman at Lewis University majoring in IT. I plan to have a career in the Air Force while also pursuing a career in patient care.</p>
+            <h2>Job Responsibilities</h2>
+            <p>As a lifeguard and swim instructor, I ensure the safety of swimmers, enforce pool rules, and provide swimming lessons to individuals of all ages.</p>
         </section>
 
         <section>
-            <h2>What I Hope to Learn in this Course</h2>
-            <ul>
-                <li>Web development fundamentals</li>
-                <li>HTML and CSS best practices</li>
-                <li>Responsive design techniques</li>
-                <li>Website validation and optimization</li>
-            </ul>
+            <h2>Hobbies and Special Interests</h2>
+            <p>I have a strong passion for building cars and racing.</p>
         </section>
 
         <section>
-            <h2>My Favorite Hobby / Activity</h2>
-            <ul>
-                <li>Building cars</li>
-                <li>Racing</li>
-            </ul>
-            <p>Learn more about <a href="https://www.formula1.com/" target="_blank">Formula 1 Racing</a>.</p>
+            <h2>Reasons for Pursuing This Degree</h2>
+            <p>I am pursuing a degree in IT at Lewis University to align with my intended career in the Air Force while also preparing for a future in patient care.</p>
+        </section>
+
+        <section>
+            <h2>Reasons for Taking This Course</h2>
+            <p>This course will help me build a strong foundation in web development, improve my technical skills, and ensure I understand proper coding practices.</p>
         </section>
 
         <section>
