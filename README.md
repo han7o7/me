@@ -1,74 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me - Atahan Ors</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
         }
         .main-info {
-            background: #333;
+            background: #900;
             color: #fff;
             padding: 20px;
             text-align: center;
-            border-radius: 10px 10px 0 0;
         }
-        .main-info h1 {
-            margin: 0;
+        .main-info img {
+            display: block;
+            margin: 0 auto;
+            width: 800px;
+            height: auto;
         }
-        .hobbies, .career, .course, .fun-fact {
+        section {
             background: #e7e7e7;
             padding: 15px;
             margin-bottom: 10px;
-            border-radius: 5px;
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: square;
         }
         h2 {
-            color: #b22222;
+            color: #900;
+        }
+        a {
+            color: #900;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="main-info">
+            <img src="me-800-by-800.jpg" alt="Profile Picture">
             <h1>Atahan Ors</h1>
             <p>Preferred Name: Han</p>
-            <p>Current Job: Swim Instructor & Lifeguard, Mover, Senior Captain, Junk Remover</p>
+            <p>Current Job: Lifeguard & Swim Instructor</p>
         </header>
 
-        <section class="career">
-            <h2>Job Responsibilities</h2>
-            <p>As a Swim Instructor & Lifeguard, I ensure pool safety, teach swimming techniques, and provide emergency response when needed. As a Mover and Senior Captain at College Hunks, I lead teams, transport furniture, and coordinate logistics. As a Junk Remover, I assist with responsible disposal and recycling of items.</p>
+        <section>
+            <h2>Introduction</h2>
+            <p>Hi, I'm Atahan Ors, but I go by Han. My family is very important to me, and I am currently a freshman at Lewis University majoring in IT. I plan to have a career in the Air Force while also pursuing a career in patient care.</p>
         </section>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>I enjoy building and racing cars, as well as listening to and making music.</p>
+        <section>
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul>
+                <li>Web development fundamentals</li>
+                <li>HTML and CSS best practices</li>
+                <li>Responsive design techniques</li>
+                <li>Website validation and optimization</li>
+            </ul>
         </section>
 
-        <section class="career">
-            <h2>Reasons for Pursuing This Degree</h2>
-            <p>I chose to major in IT because it aligns with my Air Force career aspirations and passion for technology. I want to develop problem-solving skills and gain knowledge in emerging tech fields.</p>
+        <section>
+            <h2>My Favorite Hobby / Activity</h2>
+            <ul>
+                <li>Building cars</li>
+                <li>Racing</li>
+            </ul>
+            <p>Learn more about <a href="https://www.formula1.com/" target="_blank">Formula 1 Racing</a>.</p>
         </section>
 
-        <section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>I want to learn web development, HTML & CSS, and how to manage websites using GitHub Pages.</p>
-        </section>
-
-        <section class="fun-fact">
+        <section>
             <h2>Fun Fact</h2>
-            <p>I build cars for fun, from modifying engines to optimizing performance for racing.</p>
+            <p>I build cars for fun!</p>
         </section>
     </div>
 </body>
