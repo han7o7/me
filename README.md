@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
         .main-info img {
             display: block;
             margin: 0 auto;
-            width: 800px;
+            max-width: 100%;
             height: auto;
         }
         section {
